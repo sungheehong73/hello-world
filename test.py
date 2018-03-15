@@ -14,7 +14,7 @@ import sub_hongpackage.temp as sh_t
 #    data = '당신의 숫자는 {}\n'.format(i)
 #    sh_t.file_inout(data)
 try:
-    sh_t.couple2()
+    sh_t.couple2() # test
     
 #   sh_t.class_4cal()
 #    sh_t.timer3(100,1)
