@@ -257,14 +257,7 @@ def elap_time():
     end = datetime.now()
     print('duration is {}'.format(end-start))
 
-def number3():
-    num = input('input your number')
-    num_size = len(num)
-    count = 1
-    for i in num:
-        if num_size%3 == 0:
-            
-    
+
 class new_obj:
 
     def __init__(self,name):
@@ -475,12 +468,25 @@ def filesplite():
                 h.write(buf)
             buf = f.read(subsize)
             i += 1
+import random            
+def lotto():
+    num = []
+    total_list = list(range(1,45))
 
-def filesum():
-    filename = 'python-3.5.2.exe'
-    subsize = 1024*1024 # Mbyte
     
-    with open(filename,'rb') as f:
+    random.shuffle(total_list)
+    num = total_list[1:6]
+    print(num)
         
-                
+def couple2():
+    a = ['hong','kim','lee']
+    b = ['yoon','kang','jung']
+    random.shuffle(a)
+    random.shuffle(b)
+    c = zip(a,b)
+    c_list = list(c)
+    for i,j in c_list:
+        print('{} & {}'.format(i,j))
+            
+
     
